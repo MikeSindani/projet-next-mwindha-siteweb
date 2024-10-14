@@ -1,12 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import { useRef } from "react";
-import logo1 from "@/svg/logo.svg";
 import whastapp from "@/svg/whastapp.svg";
 import picture from "@/svg/picture_header.svg";
 import logoHorizontal from "@/svg/logo.svg";
 import Image from "next/image";
-import Counter from "@/Compteurs/Counter";
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const openMenuLogo = useRef(null);
