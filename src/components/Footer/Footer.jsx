@@ -82,7 +82,7 @@ const Footer = () => {
                 href="#"
                 className="hover:text-orange-500 text-gray-900 text-sm"
               >
-                x
+                x (twitter)
               </a>
             </li>
             <li className="mb-2">
