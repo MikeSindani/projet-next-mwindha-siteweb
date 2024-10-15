@@ -21,7 +21,7 @@ const UnderConstructionModal = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full h-full flex justify-center items-center bg-gray-500 backdrop-blur-md bg-opacity-50 ${
+      className={`fixed top-0 left-0 w-full h-full flex justify-center items-center bg-gray-500 backdrop-blur-md z-10 bg-opacity-50 ${
         showModal ? 'block' : 'hidden'
       }`}
     >
