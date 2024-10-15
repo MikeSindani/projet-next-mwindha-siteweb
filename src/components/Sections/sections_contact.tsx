@@ -7,24 +7,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
 export default function SectionsContact() {
   return (
-    <ScrollAnimation animateIn="fadeIn" delay={300}>
-      <section
-        id="contact"
-        className="flex flex-col p-6 md:p-10 space-y-2 bg-white"
-      >
-        <div className="m-3 relative">
-          <h1 className="text-md font-bold  text-center text-primary-color ">
-            CONTACT US
-          </h1>
-          <p className="text-md text-slate-800 text-center">
-            Contact us at any time for more information about us or our
-            activities
-          </p>
-        </div>
+    <section
+      id="contact"
+      className="flex flex-col p-6 md:p-10 space-y-2 bg-white"
+    >
+      <div className="m-3 relative">
+        <h1 className="text-md font-bold  text-center text-primary-color ">
+          CONTACT US
+        </h1>
+        <p className="text-md text-slate-800 text-center">
+          Contact us at any time for more information about us or our activities
+        </p>
+      </div>
+      <ScrollAnimation animateIn="fadeIn" delay={300}>
         <div>
           <div className="flex flex-col">
             <div className="flex gap-2 max-md:flex-col-reverse">
-              <div className="flex flex-col gap-3 w-full md:w-1/3 p-6 bg-white shadow-xl">
+              <div className="flex flex-col gap-3 w-full md:w-1/3 p-6 bg-white shadow-xl rounded-xl">
                 <h2 className="text-black font-semibold text-xl md:text-2xl font-primary-font">
                   Send us an email
                 </h2>
@@ -36,10 +35,10 @@ export default function SectionsContact() {
                     id="amm@orfex.pro"
                   >
                     <div className="flex flex-col">
-                      <label for="name">
+                      <label>
                         {" "}
                         <span className="label font-secondary-font text-orfex-vert">
-                          Your Name 
+                          Your Name
                         </span>{" "}
                       </label>
                       <input
@@ -50,7 +49,7 @@ export default function SectionsContact() {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <label for="name">
+                      <label>
                         {" "}
                         <span className="label font-secondary-font text-orfex-vert">
                           Your Email
@@ -64,7 +63,7 @@ export default function SectionsContact() {
                       />
                     </div>
                     <div className="flex flex-col">
-                      <label for="name">
+                      <label>
                         {" "}
                         <span className="label font-secondary-font text-orfex-vert">
                           Your Phone
@@ -85,7 +84,7 @@ export default function SectionsContact() {
                     <input type="hidden" name="_template" value="basic" />
                     <input type="hidden" name="_captcha" value="false" />
                     <div className="flex flex-col">
-                      <label for="name">
+                      <label>
                         {" "}
                         <span className="label font-secondary-font text-orfex-vert">
                           Your Message
@@ -98,8 +97,8 @@ export default function SectionsContact() {
                       ></textarea>
                     </div>
 
-                    <button className=" py-2 px-6 text-white w-36 bg-primary-color hover:opacity-80 transition-all  text-sm">
-                     Send Mail 
+                    <button className=" py-2 px-6 text-white font-bold uppercase w-36 bg-primary-color hover:opacity-80 transition-all  text-sm">
+                      Send Mail
                     </button>
                   </form>
                 </div>
@@ -168,7 +167,7 @@ export default function SectionsContact() {
             </div>
           </div>
         </div>
-      </section>
-    </ScrollAnimation>
+      </ScrollAnimation>
+    </section>
   );
 }

@@ -125,7 +125,7 @@ function Header() {
           </ul>
         </nav>
         <div className="container  left-0 w-full h-[110dvh] md:h-[75dvh] flex flex-col mx-auto">
-          <div className="flex max-md:flex-col-reverse justify-between gap-3 items-center h-full w-full my-10 p-8 md:p-4">
+          <div className="flex max-md:flex-col-reverse justify-between gap-3 items-center h-full w-full my-10 p-12 md:p-4">
             <div className="text-center space-y-3 w-full md:w-1/2">
               <h1 className="md:text-5xl text-3xl font-bold text-black font-primary-font md:text-left my-5">
                 We make Tax filing <br />
