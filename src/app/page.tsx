@@ -7,6 +7,7 @@ import SectionFAQ from "@/components/Sections/sections_faq";
 import SectionsTextContact from "@/components/Sections/sections_text_contact";
 import SectionsTeam from "@/components/Sections/sections_teams";
 import SectionsPub from "@/components/Sections/sections_pub";
+import SectionsServices from "@/components/Sections/sections_services";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <UnderConstructionModal/>
         <Header/>
         <SectionsCompteur/>
+        <SectionsServices/>
         <SectionsPub/>
         <SectionsTeam/>
         <SectionsTextContact/>
