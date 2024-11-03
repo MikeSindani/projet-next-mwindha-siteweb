@@ -52,12 +52,12 @@ const SectionFAQ = () => {
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-              What are the benefits of using MWINDHA's payroll services?
+              What are the benefits of using MWINDHA{"'"}s payroll services?
               </AccordionTrigger>
               <AccordionContent>We simplify payroll processes, ensure accurate and timely payments, manage tax withholdings, and generate payroll reports. This allows you to focus on running your business while we handle the payroll complexities.</AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>How do I get started with MWINDHA's tax planning services?</AccordionTrigger>
+              <AccordionTrigger>How do I get started with MWINDHA{"'"}s tax planning services?</AccordionTrigger>
               <AccordionContent>
               Contact us via phone or email to schedule a consultation. We will assess your tax situation, identify opportunities for tax savings, and develop a tailored tax planning strategy for your business.
               </AccordionContent>
