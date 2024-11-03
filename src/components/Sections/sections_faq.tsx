@@ -29,51 +29,37 @@ const SectionFAQ = () => {
         <div className="md:mx-[25%] mx-[20px] overflow-clip">
           <Accordion type="single" collapsible className="space-y-3">
             <AccordionItem value="item-1">
-              <AccordionTrigger>Qu est-ce que ORFEX?</AccordionTrigger>
+              <AccordionTrigger>What services do you offer at MWINDHA?</AccordionTrigger>
               <AccordionContent>
-                ORFEX est une entreprise diversifiée opérant dans divers
-                secteurs, notamment le commerce général, la sous-traitance, l
-                approvisionnement et la vente de services. Établie en 2022, l
-                entreprise est devenue un partenaire de confiance pour les
-                clients de plusieurs secteurs.
+                  We offer a full range of services including payroll, accounting, tax planning, financial analysis, and advisory services. We aim to be your one-stop shop for all your financial needs.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                Quels sont les secteurs dans lesquels ORFEX opère?
+              How can MWINDHA help my business with accounting needs?
               </AccordionTrigger>
               <AccordionContent>
-                ORFEX opère dans divers secteurs, y compris mais sans s y
-                limiter : Commerce général Sous-traitance Approvisionnement
-                Vente de services
+              Our accounting services include preparation of financial statements, management accounts, and professional accountant letters. We ensure accurate reporting, compliance, and insightful financial analysis to support your business decisions.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                Comment ORFEX soutient-elle ses clients?
+                  How can MWINDHA help my business with accounting needs?
               </AccordionTrigger>
               <AccordionContent>
-                En tant qu entreprise diversifiée, ORFEX offre une gamme de
-                services adaptés aux besoins spécifiques de ses clients dans
-                différents secteurs. Grâce à sa capacité à offrir des solutions
-                sur mesure, ORFEX assure une relation partenariale de confiance
-                avec ses clients, contribuant ainsi à leur succès et croissance.
+                 Our accounting services include preparation of financial statements, management accounts, and professional accountant letters. We ensure accurate reporting, compliance, and insightful financial analysis to support your business decisions.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
-                Depuis quand existe-t-il ORFEX?
+              What are the benefits of using MWINDHA's payroll services?
               </AccordionTrigger>
-              <AccordionContent>ORFEX a été établie en 2022.</AccordionContent>
+              <AccordionContent>We simplify payroll processes, ensure accurate and timely payments, manage tax withholdings, and generate payroll reports. This allows you to focus on running your business while we handle the payroll complexities.</AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>Pourquoi choisir ORFEX?</AccordionTrigger>
+              <AccordionTrigger>How do I get started with MWINDHA's tax planning services?</AccordionTrigger>
               <AccordionContent>
-                Choisir ORFEX signifie bénéficier d un partenaire de confiance
-                capable de répondre à une large gamme de besoins commerciaux.
-                Avec une expertise reconnue dans divers secteurs, ORFEX offre
-                des solutions personnalisées qui permettent aux entreprises de
-                se développer et de réussir dans leur marché.
+              Contact us via phone or email to schedule a consultation. We will assess your tax situation, identify opportunities for tax savings, and develop a tailored tax planning strategy for your business.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

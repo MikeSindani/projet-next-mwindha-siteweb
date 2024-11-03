@@ -5,6 +5,8 @@ import whastapp from "@/svg/whastapp.svg";
 import picture from "@/svg/picture_header.svg";
 import logoHorizontal from "@/svg/logo.svg";
 import Image from "next/image";
+import {WhatsAppOutlined} from '@ant-design/icons';
+import { Phone } from "lucide-react";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,8 +22,8 @@ function Header() {
     closeMenuLogo.current?.classList.toggle("hidden");
   };
 
- // variable 
- const taille_icons   = 20;
+  // variable
+  const taille_icons = 20;
 
   return (
     <header className=" md:h-[95dvh] h-[160dvh] left-0 w-full">
@@ -79,7 +81,12 @@ function Header() {
             <Image src={logoHorizontal} alt="Logo" width={60} height={60} />
           </div>
           <div className="hover:text-white p-2 rounded-md hover:bg-primary-color flex items-center justify-center gap-2 md:hidden">
-              <Image src={whastapp} alt="Logo" width={taille_icons} height={taille_icons} />
+            <Image
+              src={whastapp}
+              alt="Logo"
+              width={taille_icons}
+              height={taille_icons}
+            />
           </div>
           <ul className="flex justify-between items-center gap-5 max-md:hidden">
             <li>
@@ -134,31 +141,32 @@ function Header() {
               <h1 className="text-md font-bold  text-left text-primary-color ">
                 ABOUT US
               </h1>
-              <p className="text-md  text-black text-justify w-96 my-2">
+              <p className="text-md  text-black text-justify md:w-96 w-72 my-2">
                 With over 10 years of experience, TaxConsult provides
                 comprehensive tax services for individuals and businesses. We
                 focus on delivering expert advice and seamless solutions to meet
                 all your tax needs.
               </p>
               <div className="flex gap-2 my-3">
-                <div>
+                <div className="flex gap-2 my-3">
                   <a
                     href="#contact"
-                    className="text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-8 bg-three-color "
+                    className="text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-6 bg-three-color "
                   >
-                    Learn more
+                  <WhatsAppOutlined />   Learn more
                   </a>
                 </div>
-                <div>
+                <div className="flex gap-2 my-3">
                   <a
-                    href="tel:"
-                    className="text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-8 bg-primary-color "
+                    href="tel:+27729153576"
+                    className="flex justify-center items-center text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-6 bg-primary-color "
                   >
-                     +27 000000 00000
+                    {" "}
+                    <Phone color="white" size={20} />
+                    <span className="mx-2">+27 729153576</span>
                   </a>
                 </div>
               </div>
-             
             </div>
             <div className="flex justify-center items-center w-full md:w-1/2 ">
               <Image
