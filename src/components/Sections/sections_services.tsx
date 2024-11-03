@@ -141,7 +141,7 @@ export default function SectionsServices() {
           {groupes.map((groupe) => (
             <div key={groupe.name}>
               <h3 className="font-bold mb-2 text-center">{groupe.title.toUpperCase()}</h3>
-              <div className="space-y-1 grid grid-cols-4 gap-2 last:pr-2">
+              <div className="space-y-1 grid grid-cols-3 md:grid-cols-4 gap-2 last:pr-2">
                 {services.filter((service) => service.groupe === groupe.name).map((service) => (
                   <a
                     href='#services'

@@ -26,7 +26,7 @@ function Header() {
   const taille_icons = 20;
 
   return (
-    <header className=" md:h-[95dvh] h-[160dvh] left-0 w-full">
+    <header className=" md:h-[95dvh] h-[140dvh] left-0 w-full">
       <div className=" w-full h-full bg-cover bg-center bg-secondary-color">
         <nav className="flex justify-between items-center p-4 h-20 z-30 bg-white">
           <div className="flex items-center md:hidden">
@@ -131,17 +131,17 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="container  left-0 w-full h-[110dvh] md:h-[75dvh] flex flex-col mx-auto">
-          <div className="flex max-md:flex-col-reverse justify-between gap-3 items-center h-full w-full my-10 p-12 md:p-4">
+        <div className="container  left-0 w-full h-[130dvh] md:h-[75dvh] flex flex-col mx-auto">
+          <div className="flex max-md:flex-col-reverse md:justify-between justify-center gap-3 items-center h-full w-full p-12 md:p-4">
             <div className="text-center space-y-3 w-full md:w-1/2">
               <h1 className="md:text-5xl text-3xl font-bold text-black font-primary-font md:text-left my-5">
                 We make Tax filing <br />
                 simple and easy.
               </h1>
-              <h1 className="text-md font-bold  text-left text-primary-color ">
+              <h1 className="text-md font-bold text-center  md:text-left text-primary-color ">
                 ABOUT US
               </h1>
-              <p className="text-md  text-black text-justify md:w-96 w-72 my-2">
+              <p className="text-md  text-black text-justify md:w-96 w-full md:w-72 m-2">
                 With over 10 years of experience, TaxConsult provides
                 comprehensive tax services for individuals and businesses. We
                 focus on delivering expert advice and seamless solutions to meet
@@ -168,7 +168,7 @@ function Header() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center w-full md:w-1/2 ">
+            <div className="flex justify-center items-center md:w-1/2 ">
               <Image
                 src={picture}
                 alt="Logo"
