@@ -3,7 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "@/svg/logo.svg";
 const Footer = () => {
+
+  // body 
   const currentYear = new Date().getFullYear();
+
+  // retour 
   return (
     <footer className="bg-orfex-vert text-white">
       <div className="container m-auto flex flex-wrap items-start justify-between p-10">
@@ -21,6 +25,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
+        
         {/* Navigation */}
         <div className="w-full md:w-1/4 p-2">
           <h3 className="text-lg font-bold mb-4 text-black">Navigation</h3>
