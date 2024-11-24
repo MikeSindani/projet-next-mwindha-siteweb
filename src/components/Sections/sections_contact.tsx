@@ -5,7 +5,7 @@ import phone from "@/svg/phone.svg";
 import mail from "@/svg/mail.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
-import operatrice from "@/image/operatrice.jpeg";
+
 
 
 export default function SectionsContact() {
