@@ -60,7 +60,7 @@ const services: Service[] = [
   { id:2,
     name: "Tax Planning",
     description: "Optimize your taxes with personalized strategies for individuals and businesses to minimize tax liability and maximize savings.",
-    image: "https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://probusinessaccounting.com/wp-content/uploads/2019/01/Tax-Planning.jpg",
     groupe:"tax"
   },
   {
@@ -142,7 +142,7 @@ export default function SectionsServices() {
   const [selectedService, setSelectedService] = useState<Service>(services[0])
 
   return (
-    <div className="flex flex-col  items-center md:flex-row gap-8 p-28 max-w-6xl mx-auto">
+    <div className="flex flex-col  items-center md:flex-row gap-8 p-10 md:p-28 max-w-6xl mx-auto">
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-4 font-primary-font">Empowering Financial Success with Experts</h1>
         <h2 className="text-lg font-bold text-primary-color mb-2">OUR SERVICES</h2>
@@ -181,7 +181,7 @@ export default function SectionsServices() {
           alt={`${selectedService.name} illustration`}
           width={400}
           height={600}
-          className="w-full h-[400px] md:h-[600px]"
+          className="w-full max-md:w-[400px] h-[400px] md:h-[600px]"
         />
         <div className="absolute bottom-20 w-full scale-110 bg-secondary-color shadow-xl ">
           <div className="p-4">

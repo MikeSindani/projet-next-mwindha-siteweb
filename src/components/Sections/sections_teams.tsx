@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import ScrollAnimation from "react-animate-on-scroll";
 
 interface TeamMember {
   name: string;
@@ -36,17 +37,17 @@ export default function SectionsTeam() {
   const [selectedMember, setSelectedMember] = useState<string | null>(teamMembers[0].name);
 
   return (
-    <div className={`container mx-auto px-4 py-16 `}>
+    <div id="partner" className={`container mx-auto px-4 py-16 `}>
       <h1 className={`text-3xl font-bold text-center mb-2 font-primary-font`}>
-          Our partner of choice.
+         Our partner of choice and trust.
       </h1>
-      <h2 className="text-md font-bold text-center text-primary-color mb-8 font-secondary-font">
-        PARTNER
+      <h2 className="text-md font-bold text-center text-primary-color mb-8 font-secondary-font uppercase">
+         Our partners
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-3">
         {teamMembers.map((member, index) => (
+          <ScrollAnimation key={index} animateIn="fadeIn" delay={300}>
           <div
-            key={index}
             className="flex flex-col items-center cursor-pointer"
             onMouseOver={() => setSelectedMember(member.name)}
           >
@@ -73,6 +74,7 @@ export default function SectionsTeam() {
               )}
             </div>
           </div>
+          </ScrollAnimation>
         ))}
       </div>
     </div>

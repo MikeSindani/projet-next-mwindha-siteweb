@@ -107,10 +107,10 @@ function Header() {
             </li>
             <li>
               <a
-                href="#team"
+                href="#partner"
                 className="text-md font-meduim text-black hover:text-gray-200 font-bold"
               >
-                Team
+                Partner
               </a>
             </li>
             <li>
@@ -213,10 +213,10 @@ function Header() {
             </li>
             <li>
               <a
-                href="#maps"
+                href="#partner"
                 className="block px-4 py-2 text-sm text-white hover:bg-orfex-bleu"
               >
-                Maps
+                Partner
               </a>
             </li>
             <li>
