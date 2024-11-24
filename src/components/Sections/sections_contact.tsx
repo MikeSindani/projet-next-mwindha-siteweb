@@ -12,7 +12,7 @@ export default function SectionsContact() {
   return (
     <section
       id="contact"
-      className="flex flex-col p-6 md:p-10 m-6 space-y-2 bg-white"
+      className="flex flex-col  md:p-10 m-6 space-y-2 bg-white"
     >
       <div className="m-3 relative">
         <h1 className="text-md font-bold  text-center text-primary-color ">
@@ -33,7 +33,7 @@ export default function SectionsContact() {
                   objectFit="cover"
                   width={500}
                   height={700}
-                  className="md:h-[120vh] h-[90vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
+                  className="md:h-[120vh] h-[50vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
                 />
               </div>
               <div id="maps" className="md:w-2/3 p-6 flex flex-col w-full">
