@@ -181,7 +181,7 @@ export default function SectionsServices() {
           alt={`${selectedService.name} illustration`}
           width={400}
           height={600}
-          className="w-full max-md:w-[400px] h-[400px] md:h-[600px]"
+          className="w-full max-md:w-[400px] h-[600px]"
         />
         <div className="absolute bottom-20 w-full scale-110 bg-secondary-color shadow-xl ">
           <div className="p-4">

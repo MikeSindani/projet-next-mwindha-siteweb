@@ -19,7 +19,7 @@ export default function SectionsContact() {
           CONTACT US
         </h1>
         <p className="text-md text-slate-800 text-center">
-          Contact us at any time for more information about us or our activities
+          Contact us at any time for more information about us or our activities.
         </p>
       </div>
       <ScrollAnimation animateIn="fadeIn" delay={300}>
@@ -33,7 +33,7 @@ export default function SectionsContact() {
                   objectFit="cover"
                   width={500}
                   height={700}
-                  className="md:h-[120vh] h-[50vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
+                  className="md:h-[120vh] h-[80vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
                 />
               </div>
               <div id="maps" className="md:w-2/3 p-6 flex flex-col w-full">
@@ -52,7 +52,6 @@ export default function SectionsContact() {
                     <div>
                       <a href="maps.google.com" className="text-sm font-bold">
                         RIVERCLUB, SANDTON SOUTH AFRICA
-
                       </a>
                     </div>
                   </div>
@@ -68,10 +67,26 @@ export default function SectionsContact() {
                     <Image src={mail} alt="Logo" width={50} height={50} />
                     <div>
                       <a
-                        href="mailto:info@mwindha.coza"
+                        href="mailto:info@mwindha.co.za"
                         className="text-sm font-bold"
                       >
-                        info@mwindha.coza
+                        info@mwindha.co.za
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href="mailto:pmuswaswa@mwindha.co.za"
+                        className="text-sm font-bold"
+                      >
+                        pmuswaswa@mwindha.co.za
+                      </a>
+                    </div>
+                                        <div>
+                      <a
+                        href="mailto: accounts@mwindha.co.za"
+                        className="text-sm font-bold"
+                      >
+                        accounts@mwindha.co.za
                       </a>
                     </div>
                   </div>
@@ -83,9 +98,9 @@ export default function SectionsContact() {
                   <div className="p-3">
                     <form
                       className="flex gap-5 flex-col justify-center "
-                      action="https://formsubmit.co/info@mwindha.coza "
+                      action="https://formsubmit.co/info@mwindha.co.za "
                       method="POST"
-                      id="info@mwindha.coza"
+                      id="info@mwindha.co.za"
                     >
                       <div className="flex flex-col">
                         <label>
