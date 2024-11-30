@@ -33,7 +33,7 @@ export default function SectionsContact() {
                   objectFit="cover"
                   width={500}
                   height={700}
-                  className="md:h-[120vh] h-[80vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
+                  className="md:h-[125vh] h-[80vh] w-full max-md:rounded-t-xl md:rounded-l-xl"
                 />
               </div>
               <div id="maps" className="md:w-2/3 p-6 flex flex-col w-full">
@@ -65,14 +65,7 @@ export default function SectionsContact() {
                   </div>
                   <div className="flex flex-col gap-1 justify-center items-center w-36">
                     <Image src={mail} alt="Logo" width={50} height={50} />
-                    <div>
-                      <a
-                        href="mailto:info@mwindha.co.za"
-                        className="text-sm font-bold"
-                      >
-                        info@mwindha.co.za
-                      </a>
-                    </div>
+                    
                     <div>
                       <a
                         href="mailto:pmuswaswa@mwindha.co.za"
@@ -81,14 +74,7 @@ export default function SectionsContact() {
                         pmuswaswa@mwindha.co.za
                       </a>
                     </div>
-                                        <div>
-                      <a
-                        href="mailto: accounts@mwindha.co.za"
-                        className="text-sm font-bold"
-                      >
-                        accounts@mwindha.co.za
-                      </a>
-                    </div>
+                                       
                   </div>
                 </div>
                 <div className="flex flex-col gap-3 w-full p-6 bg-white ">

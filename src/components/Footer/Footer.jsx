@@ -3,29 +3,31 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "@/svg/logo.svg";
 const Footer = () => {
-
-  // body 
+  // body
   const currentYear = new Date().getFullYear();
 
-  // retour 
+  // retour
   return (
     <footer className="bg-orfex-vert text-white">
       <div className="container m-auto flex flex-wrap items-start justify-between p-10">
         {/* Logo */}
-        <div className="w-full md:w-1/4 p-2">
+        <div className="w-full md:w-2/4 p-2">
           <div className="flex flex-col justify-center gap-y-2">
             <div>
               <Image src={logo} alt="Logo" width={60} height={60} />
             </div>
-            <p className="text-black text-md font-semi-bold">
-              With over 10 years of experience, TaxConsult provides
-              comprehensive tax services for individuals and businesses. We
-              focus on delivering expert advice and seamless solutions to meet
-              all your tax needs.
+            <p className="text-black text-md font-semi-bold md:w-96">
+              We take care of your Finance, Accounting and Payroll so that you
+              can focus on your core business operations. We also help you cut
+              costs on labor. With over 7 years of experience in finance,
+              accounting and payroll, we provide comprehensive services for
+              individuals and businesses. We focus on delivering expert advice
+              and seamless solutions to meet all your finance, accounting
+              and payroll needs.
             </p>
           </div>
         </div>
-        
+
         {/* Navigation */}
         <div className="w-full md:w-1/4 p-2">
           <h3 className="text-lg font-bold mb-4 text-black">Navigation</h3>
@@ -46,20 +48,13 @@ const Footer = () => {
                 Services
               </Link>
             </li>
+
             <li className="mb-2">
               <Link
-                href="#contact"
+                href="#affiliation"
                 className="hover:text-primary-color text-gray-900 text-md"
               >
-                Contact us
-              </Link>
-            </li>
-            <li className="mb-2">
-              <Link
-                href="#maps"
-                className="hover:text-primary-color text-gray-900 text-md"
-              >
-                Maps
+                affiliation
               </Link>
             </li>
             <li className="mb-2">
@@ -67,7 +62,15 @@ const Footer = () => {
                 href="#faq"
                 className="hover:text-primary-color text-gray-900 text-md "
               >
-                Questions fréquemment posées
+                FAQ
+              </Link>
+            </li>
+            <li className="mb-2">
+              <Link
+                href="#contact"
+                className="hover:text-primary-color text-gray-900 text-md"
+              >
+                Contact us
               </Link>
             </li>
           </ul>
@@ -101,7 +104,7 @@ const Footer = () => {
       <div className="bg-three-color text-white p-6">
         <div className="container mx-auto text-center">
           <p className="mb-2 text-white font-meduim max-md:text-sm font-bold">
-            © {currentYear} MWINDHA Tous droits réservés.
+            © {currentYear} MWINDHA All rights reserved.
           </p>
         </div>
       </div>

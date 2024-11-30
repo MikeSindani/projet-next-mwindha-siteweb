@@ -42,14 +42,6 @@ const SectionFAQ = () => {
               Our accounting services include preparation of financial statements, management accounts, and professional accountant letters. We ensure accurate reporting, compliance, and insightful financial analysis to support your business decisions.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger>
-                  How can MWINDHA help my business with accounting needs?
-              </AccordionTrigger>
-              <AccordionContent>
-                 Our accounting services include preparation of financial statements, management accounts, and professional accountant letters. We ensure accurate reporting, compliance, and insightful financial analysis to support your business decisions.
-              </AccordionContent>
-            </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
               What are the benefits of using MWINDHA{"'"}s payroll services?

@@ -18,8 +18,10 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Mwindha",
-  description: "our tax services",
+  title: "Mwindha | Home",
+  description: "our tax services for you",
+  category:"tax",
+  keywords:['tax','south africa','rand','mwindha','finance','accounting','payroll','tax planning','tax clearance','personal income tax','company registration','company amendment','CIPC annual returns','budget','management accounts','accountant letter','payroll','financial statements']
 };
 
 export default function RootLayout({

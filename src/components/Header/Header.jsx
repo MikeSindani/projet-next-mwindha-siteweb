@@ -5,7 +5,7 @@ import whastapp from "@/svg/whastapp.svg";
 import picture from "@/svg/picture_header.svg";
 import logoHorizontal from "@/svg/logo.svg";
 import Image from "next/image";
-import {WhatsAppOutlined} from '@ant-design/icons';
+import { WhatsAppOutlined } from "@ant-design/icons";
 import { Phone } from "lucide-react";
 
 function Header() {
@@ -107,16 +107,16 @@ function Header() {
             </li>
             <li>
               <a
-                href="#partner"
+                href="#affiliation"
                 className="text-md font-meduim text-black hover:text-gray-200 font-bold"
               >
-                Partner
+                Affiliation
               </a>
             </li>
             <li>
               <a
                 href="#faq"
-                className="text-md font-meduim text-white hover:text-gray-200 font-bold"
+                className="text-md font-meduim text-black hover:text-gray-200 font-bold"
               >
                 FAQ
               </a>
@@ -141,11 +141,14 @@ function Header() {
               <h1 className="text-md font-bold text-center  md:text-left text-primary-color ">
                 ABOUT US
               </h1>
-              <p className="text-md  text-black text-justify md:w-96 w-full md:w-72 m-2">
-                With over 10 years of experience, TaxConsult provides
-                comprehensive tax services for individuals and businesses. We
-                focus on delivering expert advice and seamless solutions to meet
-                all your tax needs.
+              <p className="text-md  text-black text-justify md:w-96 w-full m-2">
+                We take care of your Finance, Accounting and Payroll so that you
+                can focus on your core business operations. We also help you cut
+                costs on labor. With over 7 years of experience in finance,
+                accounting and payroll, we provide comprehensive services for
+                individuals and businesses. We focus on delivering expert advice
+                and seamless solutions to meet all your finance, accounting
+                and payroll needs.
               </p>
               <div className="flex gap-2 my-3">
                 <div className="flex gap-2 my-3">
@@ -153,7 +156,7 @@ function Header() {
                     href="#contact"
                     className="text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-6 bg-three-color "
                   >
-                  <WhatsAppOutlined />   Learn more
+                    <WhatsAppOutlined /> Learn more
                   </a>
                 </div>
                 <div className="flex gap-2 my-3">
@@ -172,7 +175,7 @@ function Header() {
               <Image
                 src={picture}
                 alt="Logo"
-                className="max-md:w-60 max-md:h-60 mr-4"
+                className="max-md:w-40 max-md:h-40 mr-4"
               />
             </div>
           </div>
@@ -213,10 +216,10 @@ function Header() {
             </li>
             <li>
               <a
-                href="#partner"
+                href="#affiliation"
                 className="block px-4 py-2 text-sm text-white hover:bg-orfex-bleu"
               >
-                Partner
+                Affiliation
               </a>
             </li>
             <li>
