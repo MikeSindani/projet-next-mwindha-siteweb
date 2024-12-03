@@ -144,7 +144,7 @@ function Header() {
               <p className="text-md  text-black text-justify md:w-96 w-full m-2">
                 We take care of your Finance, Accounting and Payroll so that you
                 can focus on your core business operations. We also help you cut
-                costs on labor. With over 7 years of experience in finance,
+                costs on labor. with almost a decade of experience in finance,
                 accounting and payroll, we provide comprehensive services for
                 individuals and businesses. We focus on delivering expert advice
                 and seamless solutions to meet all your finance, accounting

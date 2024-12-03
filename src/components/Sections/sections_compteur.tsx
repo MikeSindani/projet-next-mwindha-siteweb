@@ -8,7 +8,7 @@ export default function SectionsCompteur() {
         <div className="font-semi-bold text-4xl md:text-6xl text-white flex">
           <Counter targetNumber={200} timer={100} />+
         </div>
-        <div className="font-light text-xs text-white">Sactifaits clients</div>
+        <div className="font-light text-xs text-white">satisfied clients</div>
       </div>
       <div className="flex flex-col justify-start items-center md:mx-6">
         <div className="font-semi-bold text-4xl md:text-6xl text-white flex">

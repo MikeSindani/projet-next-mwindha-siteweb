@@ -65,16 +65,23 @@ export default function SectionsContact() {
                   </div>
                   <div className="flex flex-col gap-1 justify-center items-center w-36">
                     <Image src={mail} alt="Logo" width={50} height={50} />
-                    
                     <div>
                       <a
-                        href="mailto:pmuswaswa@mwindha.co.za"
+                        href="mailto:info@mwindha.co.za"
                         className="text-sm font-bold"
                       >
-                        pmuswaswa@mwindha.co.za
+                        info@mwindha.co.za
                       </a>
                     </div>
-                                       
+                   
+                                        <div>
+                      <a
+                        href="mailto: accounts@mwindha.co.za"
+                        className="text-sm font-bold"
+                      >
+                        accounts@mwindha.co.za
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="flex flex-col gap-3 w-full p-6 bg-white ">

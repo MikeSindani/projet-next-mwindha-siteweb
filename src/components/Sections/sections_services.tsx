@@ -40,14 +40,14 @@ const services: Service[] = [
     id: 1,
     name: "Personal Income Tax",
     description: "Our personalized income tax service takes the hassle out of tax filing, offering expert assistance in accurately preparing and submitting your personal income tax returns, maximizing deductions, and ensuring compliance with tax laws. Trust our experienced team to minimize your tax burden and provide peace of mind, allowing you to focus on your personal and financial goals.",
-    image: "https://images.pexels.com/photos/6863245/pexels-photo-6863245.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://www.dnpindia.in/wp-content/uploads/2023/12/Untitled-design-51-1068x712.webp",
     groupe: "tax"
   },
   {
     id: 1,
     name: "Tax Filing",
     description: "Ensure accurate and timely submission of your tax returns to avoid penalties and get the maximum refund you're entitled to.",
-    image: "https://th.bing.com/th/id/OIF.AFfsKDuvjSQpWerpQKROIw?rs=1&pid=ImgDetMain",
+    image: "https://th.bing.com/th/id/OIP.tSVhsWsUSgE0Yrwci5GwbQHaEK?w=959&h=539&rs=1&pid=ImgDetMain",
     groupe: "tax"
   },
   {
@@ -102,8 +102,8 @@ const services: Service[] = [
   {
     id: 7,
     name: "Budget",
-    description: "Our VAT return service offers comprehensive assistance in preparing and submitting your VAT returns accurately and on time, navigating the complexities of VAT regulations, and ensuring compliance with reporting requirements. Let our experienced team handle your VAT returns, allowing you to focus on your core business while enjoying peace of mind in your tax obligations.",
-    image: "https://www.freshbooks.com/wp-content/uploads/2022/12/What-Is-Budgeting.jpg",
+    description: "Having a budget keeps your spending in check and makes sure that your savings are on track for the future. Through budgeting, Mwindha will help you set long term financial goals, keep you from overspending and help shut down risky spending habits, and more",
+    image: "https://uploads-ssl.webflow.com/61384e03d0d7386945bb30ee/6388aacb8a2d1252bb3ca8f7_The%20Ultimate%20Financial%20Planning%20Checklist.jpg",
     groupe: "finance"
   },
   {
@@ -117,7 +117,7 @@ const services: Service[] = [
     id: 9,
     name: "Accountant Letter",
     description: "Our professional accountant letter service offers accurate, well-crafted letters tailored to meet your specific requirements, ensuring clear communication, compliance, and professionalism, while saving you valuable time and effort. Trust us to deliver prompt and reliable letter services that convey your financial information effectively and leave a lasting impression.",
-    image: "https://images.template.net/43593/Accountant-Cover-Letter-.jpg",
+    image: "https://images.template.net/42715/General-Ledger-Accountant-Cover-Letter-1.jpg",
     groupe: "accounting"
   },
   {
@@ -147,7 +147,7 @@ export default function SectionsServices() {
       <div className="flex-1">
         <h1 className="text-4xl font-bold mb-4 font-primary-font">Empowering Financial Success with Experts</h1>
         <h2 className="text-lg font-bold text-primary-color mb-2">OUR SERVICES</h2>
-        <p className="mb-4">We have  {services.length} services at your disposal below group in {groupes.length} categories</p>
+        <p className="mb-4">We offer the below range of services :</p>
         <div className="space-y-2 flex flex-col gap-3 last:pr-2">
           {groupes.map((groupe) => (
             <div key={groupe.name}>
