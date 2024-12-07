@@ -22,7 +22,7 @@ export default function SectionsContact() {
           Contact us at any time for more information about us or our activities.
         </p>
       </div>
-      <ScrollAnimation animateIn="fadeIn" delay={300}>
+      
         <div className="mt-16">
           <div className="flex flex-col shadow-xl rounded-xl">
             <div className="flex gap-2 max-md:flex-col">
@@ -168,7 +168,7 @@ export default function SectionsContact() {
             </div>
           </div>
         </div>
-      </ScrollAnimation>
+    
     </section>
   );
 }
