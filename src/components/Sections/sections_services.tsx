@@ -54,7 +54,7 @@ const services: Service[] = [
     id: 3,
     name: "Tax Clearance",
     description: "Obtain peace of mind and ensure compliance with tax regulations by utilizing our tax clearance services, where we meticulously review your financial records, handle all necessary paperwork, and navigate the complex tax landscape to secure your tax clearance efficiently and effectively.",
-    image: "https://www.investopedia.com/thmb/M78IlcwjseSvrknhSeezlobQssA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-175917642-59a3eab1aad52b00113ad840.jpg",
+    image: "https://st3.depositphotos.com/1177973/15307/i/450/depositphotos_153072050-stock-photo-paper-sheet-with-text.jpg",
     groupe: "tax"
   },
   {
@@ -185,7 +185,7 @@ export default function SectionsServices() {
             className="w-full max-md:w-[400px] h-[600px]"
           />
         </Suspense>
-        <div className="absolute bottom-10 w-full scale-110 bg-secondary-color shadow-xl ">
+        <div className="absolute md:bottom-8 w-full scale-110 bg-secondary-color shadow-xl">
           <div className="p-4">
             <h3 className="font-bold text-lg mb-2 text-center">{selectedService.name.toUpperCase()}</h3>
             <p className="text-md">

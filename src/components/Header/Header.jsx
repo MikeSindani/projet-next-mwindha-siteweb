@@ -175,7 +175,7 @@ function Header() {
               <Image
                 src={picture}
                 alt="Logo"
-                className="max-md:w-40 max-md:h-40 mr-4"
+                className="max-md:w-64 max-md:h-64 mr-4"
               />
             </div>
           </div>
