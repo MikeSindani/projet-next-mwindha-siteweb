@@ -3,6 +3,7 @@ import Image from "next/image";
 import maps from "@/svg/maps.svg";
 import phone from "@/svg/phone.svg";
 import mail from "@/svg/mail.svg";
+import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
 
 
@@ -21,7 +22,7 @@ export default function SectionsContact() {
           Contact us at any time for more information about us or our activities.
         </p>
       </div>
-      
+      <ScrollAnimation animateIn="fadeIn" delay={300}>
         <div className="mt-16">
           <div className="flex flex-col shadow-xl rounded-xl">
             <div className="flex gap-2 max-md:flex-col">
@@ -167,7 +168,7 @@ export default function SectionsContact() {
             </div>
           </div>
         </div>
-    
+      </ScrollAnimation>
     </section>
   );
 }
