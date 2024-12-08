@@ -3,7 +3,6 @@ import Image from "next/image";
 import maps from "@/svg/maps.svg";
 import phone from "@/svg/phone.svg";
 import mail from "@/svg/mail.svg";
-import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.compat.css";
 
 

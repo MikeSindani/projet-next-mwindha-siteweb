@@ -185,7 +185,7 @@ export default function SectionsServices() {
             className="w-full max-md:w-[400px] h-[600px]"
           />
         </Suspense>
-        <div className="absolute md:bottom-8 w-full scale-110 bg-secondary-color shadow-xl">
+        <div className="absolute md:bottom-8 backdrop-blur-sm  w-full scale-110 bg-secondary-color/70 shadow-xl">
           <div className="p-4">
             <h3 className="font-bold text-lg mb-2 text-center">{selectedService.name.toUpperCase()}</h3>
             <p className="text-md">
