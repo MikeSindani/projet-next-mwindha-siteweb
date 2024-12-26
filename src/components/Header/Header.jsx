@@ -26,7 +26,7 @@ function Header() {
   const taille_icons = 20;
 
   return (
-    <header className=" md:h-[95dvh] h-[140dvh] left-0 w-full">
+    <header className=" md:h-[97dvh] h-[140dvh] left-0 w-full">
       <div className=" w-full h-full bg-cover bg-center bg-secondary-color">
         <nav className="flex justify-between items-center p-4 h-20 z-30 bg-white">
           <div className="flex items-center md:hidden">
@@ -131,8 +131,8 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="container  left-0 w-full h-[130dvh] md:h-[75dvh] flex flex-col mx-auto">
-          <div className="flex max-md:flex-col-reverse md:justify-between justify-center gap-3 items-center h-full w-full p-12 md:p-4">
+        <div className="container md:p-6  left-0 w-full h-[120dvh] md:h-[75dvh] flex flex-col mx-auto">
+          <div className="flex max-md:flex-col-reverse md:justify-around justify-center gap-3 items-center h-full w-full p-12 md:p-6">
             <div className="text-center space-y-3 w-full md:w-1/2">
               <h1 className="md:text-5xl text-3xl font-bold text-black font-primary-font md:text-left my-5">
                 We make Tax filing <br />
@@ -144,13 +144,14 @@ function Header() {
               <p className="text-md  text-black text-justify md:w-96 w-full m-2">
                 We take care of your Finance, Accounting and Payroll so that you
                 can focus on your core business operations. We also help you cut
-                costs on labor. with almost a decade of experience in finance,
-                accounting and payroll, we provide comprehensive services for
+                costs on labor. With almost a decade of experience in Finance,
+                Accounting and Payroll, we provide comprehensive services for
                 individuals and businesses. We focus on delivering expert advice
-                and seamless solutions to meet all your finance, accounting
-                and payroll needs.
+                and seamless solutions to meet all your Finance, Accounting
+                and Payroll needs.
               </p>
-              <div className="flex gap-2 my-3">
+              {/**  bouton  */}
+              <div className="flex gap-2 my-3 max-md:justify-center">
                 <div className="flex gap-2 my-3">
                   <a
                     href="#contact"
@@ -162,7 +163,7 @@ function Header() {
                 <div className="flex gap-2 my-3">
                   <a
                     href="tel:+27729153576"
-                    className="flex justify-center items-center text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-6 bg-primary-color "
+                    className="flex justify-center items-center text-md font-meduim text-white hover:text-gray-200 font-bold py-2 px-4 bg-primary-color "
                   >
                     {" "}
                     <Phone color="white" size={20} />
@@ -171,11 +172,11 @@ function Header() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center md:w-1/2 ">
+            <div className="flex justify-center items-center md:w-1/2 md:p-10">
               <Image
                 src={picture}
                 alt="Logo"
-                className="max-md:w-64 max-md:h-64 mr-4"
+                className="max-md:w-64 max-md:h-64"
               />
             </div>
           </div>

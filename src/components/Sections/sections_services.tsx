@@ -40,7 +40,7 @@ const services: Service[] = [
     id: 1,
     name: "Personal Income Tax",
     description: "Our personalized income tax service takes the hassle out of tax filing, offering expert assistance in accurately preparing and submitting your personal income tax returns, maximizing deductions, and ensuring compliance with tax laws. Trust our experienced team to minimize your tax burden and provide peace of mind, allowing you to focus on your personal and financial goals.",
-    image: "https://www.dnpindia.in/wp-content/uploads/2023/12/Untitled-design-51-1068x712.webp",
+    image: "https://newsdoor24.com/wp-content/uploads/2022/07/Income-Tax-Return.jpg",
     groupe: "tax"
   },
   {
@@ -145,14 +145,14 @@ export default function SectionsServices() {
   return (
     <div className="flex flex-col  items-center md:flex-row gap-8 p-10 md:p-28 max-w-6xl mx-auto">
       <div className="flex-1">
-        <h1 className="text-4xl font-bold mb-4 font-primary-font">Empowering Financial Success with Experts</h1>
+        <h1 className="text-5xl font-bold mb-4 font-primary-font">Empowering Financial Success with Experts</h1>
         <h2 className="text-lg font-bold text-primary-color mb-2">OUR SERVICES</h2>
         <p className="mb-4">We offer the below range of services :</p>
         <div className="space-y-2 flex flex-col gap-3 last:pr-2">
           {groupes.map((groupe) => (
             <div key={groupe.name}>
               <h3 className="font-bold mb-2 text-center">{groupe.title.toUpperCase()}</h3>
-              <div className="space-y-1 grid grid-cols-3  gap-2 last:pr-2">
+              <div className="space-y-1 grid grid-cols-3  gap-2 last:pr-2 items-baseline">
                 {services.filter((service) => service.groupe === groupe.name).map((service) => (
                   <a
                     href='#services'
@@ -161,7 +161,7 @@ export default function SectionsServices() {
                       setSelectedService(service);
                       document.getElementById('services')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
                     }}
-                    className={`w-full text-left py-3 px-4  transition-colors ${selectedService.name === service.name
+                    className={`w-full text-left py-3 px-4 h-16   transition-colors ${selectedService.name === service.name
                         ? 'bg-primary-color hover:bg-orange-500 text-white '
                         : 'bg-gray-700 hover:bg-gray-600 text-white'
                       }`}
@@ -175,20 +175,20 @@ export default function SectionsServices() {
 
         </div>
       </div>
-      <div id='services' className="flex-1 relative  md:mt-52">
+      <div id='services' className="flex-1 relative  md:mt-52 ">
         <Suspense  fallback={<LoadingImage />}>
           <Image
             src={selectedService.image}
             alt={`${selectedService.name} illustration`}
             width={400}
             height={600}
-            className="w-full max-md:w-[400px] h-[600px]"
+            className="w-full max-md:w-[400px]  h-[600px]"
           />
         </Suspense>
-        <div className="absolute md:bottom-8 backdrop-blur-sm  w-full scale-110 bg-secondary-color/70 shadow-xl">
+        <div className="absolute bottom-8 backdrop-blur-sm  w-full scale-110 bg-secondary-color/80 shadow-xl">
           <div className="p-4">
             <h3 className="font-bold text-lg mb-2 text-center">{selectedService.name.toUpperCase()}</h3>
-            <p className="text-md">
+            <p className="text-md text-justify">
               {selectedService.description}
             </p>
           </div>

@@ -23,24 +23,24 @@ export default function SectionsPub() {
       number: 3,
       icon: "👥",
       title: "Comprehensive Services",
-      description: "From Payroll, Accounting and tax planning to financial analysis and advisory, we offer a full spectrum of of services under one roof. We are your one-stop shop for all your payroll and financial needs",
+      description: "From payroll, accounting and tax planning to financial analysis and advisory, we offer a full spectrum of services under one roof. We are your one-stop shop for all your payroll and financial needs",
     },
     {
       number: 4,
       icon: "👥",
       title: "CERTIFIED PROFESSIONALS",
-      description: "At MWINDHA, we grasp the ever-changing landscape of South African business. Our approach blends insightful analysis, innovative strategies, and practical solutions to help you navigate uncertainties and seize opportunities. Whether a startup, established enterprise, or nonprofit, we're here to drive your long-term success.",
+      description: "At MWINDHA, we grasp the ever-changing landscape of South African business. Our approach blends insightful analysis, innovative strategies, and practical solutions to help you navigate uncertainties and seize opportunities. Whether a startup, established enterprise, or non-profit, we're here to drive your long-term success.",
     },
   ];
 
-  const taille_icons: number = 30;
+  const taille_icons: number = 32;
 
   return (
     <div className="flex flex-col justify-center items-center md:flex-row gap-3 p-4 py-16 bg-secondary-color">
       {features.map((feature, index) => (
         <ScrollAnimation key={index} animateIn="fadeIn" delay={300}>
           <div
-            className="bg-white shadow-md rounded-2xl p-6 w-72 h-96 hover:scale-105 transition duration-300 ease-in-out"
+            className="bg-white shadow-md rounded-2xl p-6 w-72 h-[25rem] hover:scale-105 transition duration-300 ease-in-out"
           >
             <div className="flex flex-col items-center text-center">
               <div className="flex justify-start">
@@ -80,10 +80,10 @@ export default function SectionsPub() {
                 </div>
               </div>
               <div className="flex flex-col items-center text-center">
-                <h3 className="text-xl font-bold mb-2 font-primary-font ">
+                <h3 className="text-xl font-bold  font-primary-font h-12 mb-4 w-full">
                   {feature.title}
                 </h3>
-                <p className="text-md text-gray-600">{feature.description}</p>
+                <p className="text-md text-gray-600 text-justify">{feature.description}</p>
               </div>
             </div>
           </div>

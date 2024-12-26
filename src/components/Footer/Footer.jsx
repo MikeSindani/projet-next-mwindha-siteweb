@@ -17,13 +17,13 @@ const Footer = () => {
               <Image src={logo} alt="Logo" width={60} height={60} />
             </div>
             <p className="text-black text-md font-semi-bold md:w-96">
-              We take care of your Finance, Accounting and Payroll so that you
-              can focus on your core business operations. We also help you cut
-              costs on labor. with almost a decade of experience in finance,
-              accounting and payroll, we provide comprehensive services for
-              individuals and businesses. We focus on delivering expert advice
-              and seamless solutions to meet all your finance, accounting
-              and payroll needs.
+                We take care of your Finance, Accounting and Payroll so that you
+                can focus on your core business operations. We also help you cut
+                costs on labor. With almost a decade of experience in Finance,
+                Accounting and Payroll, we provide comprehensive services for
+                individuals and businesses. We focus on delivering expert advice
+                and seamless solutions to meet all your Finance, Accounting
+                and Payroll needs.
             </p>
           </div>
         </div>
