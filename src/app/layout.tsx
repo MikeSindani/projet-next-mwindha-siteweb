@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dosis.variable} ${poppins.variable} antialiased`}>
+      <body id="start" className={`${dosis.variable} ${poppins.variable} antialiased`}>
         {children}
         <Footer />
       </body>
