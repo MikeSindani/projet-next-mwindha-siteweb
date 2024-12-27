@@ -26,8 +26,8 @@ function Header() {
   const taille_icons = 20;
 
   return (
-    <header className=" md:h-[97dvh] h-[140dvh] left-0 w-full">
-      <div className=" w-full h-full bg-cover bg-center bg-secondary-color">
+    <header className=" md:h-[97dvh] h-[160dvh] left-0 w-full">
+      <div className=" w-full bg-cover bg-center bg-secondary-color">
         <nav className="flex justify-between items-center p-4 h-20 z-30 bg-white">
           <div className="flex items-center md:hidden">
             {/* Mobile menu button */}
@@ -131,9 +131,9 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="container md:p-6  left-0 w-full h-[120dvh] md:h-[75dvh] flex flex-col mx-auto">
-          <div className="flex max-md:flex-col-reverse md:justify-around justify-center gap-3 items-center h-full w-full p-12 md:p-6">
-            <div className="text-center space-y-3 w-full md:w-1/2">
+        <div className="container md:p-6  left-0 w-full h-full md:h-[75dvh] flex flex-col mx-auto">
+          <div className="flex max-md:flex-col-reverse md:justify-around justify-center gap-3 items-center w-full p-8 md:p-6">
+            <div className="text-center space-y-2 w-full md:w-1/2">
               <h1 className="md:text-5xl text-3xl font-bold text-black font-primary-font md:text-left my-5">
                 We make Tax filing <br />
                 simple and easy.

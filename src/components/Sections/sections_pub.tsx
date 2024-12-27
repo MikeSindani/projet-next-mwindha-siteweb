@@ -80,10 +80,10 @@ export default function SectionsPub() {
                 </div>
               </div>
               <div className="flex flex-col items-center text-center">
-                <h3 className="text-xl font-bold  font-primary-font h-12 mb-4 w-full">
+                <h3 className="text-xl font-bold  font-primary-font mb-4  w-full">
                   {feature.title}
                 </h3>
-                <p className="text-md text-gray-600 text-justify">{feature.description}</p>
+                <p className="text-md text-gray-600">{feature.description}</p>
               </div>
             </div>
           </div>

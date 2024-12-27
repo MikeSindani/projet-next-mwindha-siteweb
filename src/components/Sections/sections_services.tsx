@@ -143,7 +143,7 @@ export default function SectionsServices() {
   const [selectedService, setSelectedService] = useState<Service>(services[0])
 
   return (
-    <div className="flex flex-col  items-center md:flex-row gap-8 p-10 md:p-28 max-w-6xl mx-auto">
+    <div className="flex flex-col  items-center md:flex-row gap-8 py-16 px-10 md:p-28 w-full mx-auto">
       <div className="flex-1">
         <h1 className="text-5xl font-bold mb-4 font-primary-font">Empowering Financial Success with Experts</h1>
         <h2 className="text-lg font-bold text-primary-color mb-2">OUR SERVICES</h2>
